@@ -7,7 +7,7 @@ SMART DUSTBIN 🚮
 Wi-Fi smart dustbin with automatic lid and fill tracking.
 
 
-FEATURES ;-------------------------------------------
+--------------------------------------------------FEATURES ;-------------------------------------------
 
 AP Mode hotspot (Dustbin_AP) 🌐
 
@@ -26,7 +26,7 @@ NTP time sync ⏱
 JSON API: /status, /open, /close
 
 
-HARDWARE'S :-------------------------
+---------------------------------------------------------HARDWARE'S :-------------------------
 
 ESP8266 (NodeMCU / Wemos D1 Mini)
 
@@ -37,7 +37,7 @@ IR sensor → D5(GPIO14)
 Power → 5V USB
 
 
-USAGE---------------------
+-------------------------------------------------------------------USAGE---------------------
 
 Flash code to ESP8266.
 
@@ -52,7 +52,7 @@ Control manually or let IR auto-open.
 Check counts & fill level live.
 
 
-API----------------------------------
+-----------------------------------------------------------------------API----------------------------------
 
 GET /status → lid state, counts, fill
 GET /open → open lid
